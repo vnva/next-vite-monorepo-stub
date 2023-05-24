@@ -1,5 +1,5 @@
 .button {
-  background-color: steelblue;
+  background-color: $color-primary;
   color: white;
   border: none;
   appearance: none;
@@ -8,6 +8,6 @@
   cursor: pointer;
 
   &:hover {
-    background-color: rgba(steelblue, 0.8);
+    background-color: rgba($color-primary, 0.8);
   }
 }

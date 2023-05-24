@@ -1,4 +1,5 @@
 import { Button } from '@packages/ui-kit';
+import './styles/index.scss';
 
 export const App = () => {
   return (
