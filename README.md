@@ -18,6 +18,12 @@ npm run typecheck
 
 ## Code generation
 
+Choose from all generators:
+
+```
+npm run generate
+```
+
 Generate simple package:
 
 ```
