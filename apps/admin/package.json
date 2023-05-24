@@ -7,7 +7,7 @@
     "build": "vite build",
     "lint": "eslint . --ext .ts,.tsx",
     "preview": "vite preview",
-    "types": "tsc"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@packages/ui-kit": "*",

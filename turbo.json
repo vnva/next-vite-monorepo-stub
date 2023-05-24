@@ -4,6 +4,7 @@
   "pipeline": {
     "dev": {},
     "preview": {},
-    "build": {}
+    "build": {},
+    "typecheck": {}
   }
 }

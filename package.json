@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "dotenv -- turbo dev",
     "build": "dotenv -- turbo build",
+    "typecheck": "turbo typecheck",
     "generate:package-simple": "turbo gen package:simple",
     "generate:package-ts": "turbo gen package:ts",
     "generate:package-ui": "turbo gen package:ui"

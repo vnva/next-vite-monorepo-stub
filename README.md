@@ -8,6 +8,14 @@ For start in dev environment run:
 npm run dev
 ```
 
+## Useful scripts
+
+Types checking:
+
+```
+npm run typecheck
+```
+
 ## Code generation
 
 Generate simple package:
