@@ -36,7 +36,7 @@ Generate ui package:
 npm run generate:package-ui
 ```
 
-Generate ui kit component:
+Generate [@packages/ui-kit](/packages/ui-kit/) component:
 
 ```
 npm run generate:ui-kit-component
