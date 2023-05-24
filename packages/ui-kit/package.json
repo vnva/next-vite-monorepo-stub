@@ -3,7 +3,8 @@
   "description": "Base UI Kit",
   "main": "src/index.ts",
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "generate:component": "turbo gen ui-kit:component"
   },
   "dependencies": {
     "react": "^18.2.0"

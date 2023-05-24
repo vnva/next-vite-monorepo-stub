@@ -49,3 +49,11 @@ const nextConfig = {
 
 module.exports = nextConfig;
 ```
+
+## Code generation
+
+Generate component:
+
+```
+npm run generate:component -w @packages/ui-kit
+```

@@ -36,6 +36,12 @@ Generate ui package:
 npm run generate:package-ui
 ```
 
+Generate ui kit component:
+
+```
+npm run generate:ui-kit-component
+```
+
 ## Packages docs:
 
 - [@packages/eslint-config](/packages/eslint-config/README.md)

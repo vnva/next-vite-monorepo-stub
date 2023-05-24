@@ -1,0 +1,14 @@
+import { FC, ReactNode } from 'react';
+
+interface {{ pascalCase name }}Props {
+  children?: ReactNode;
+}
+
+export const {{ pascalCase name }}: FC<{{ pascalCase name }}Props> = ({ children }) => {
+  return (
+    <div>
+      <h1>test component gen</h1>
+      {children}
+    </div>
+  );
+};
