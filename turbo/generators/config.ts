@@ -55,7 +55,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
   });
 
   plop.setGenerator('package:ui', {
-    description: 'Generate simple ui package with eslint-config',
+    description: 'Generate simple ui package with eslint-config-ui-package',
     prompts: [
       {
         type: 'input',
