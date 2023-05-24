@@ -3,7 +3,7 @@
   "description": "Base UI Kit",
   "main": "src/index.ts",
   "scripts": {
-    "typecheck": "tsc"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0"
