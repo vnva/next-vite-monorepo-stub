@@ -1,5 +1,6 @@
 {
   "name": "@packages/eslint-config",
+  "description": "Base ESLint config",
   "main": "index.js",
   "dependencies": {
     "eslint": "^8.41.0",

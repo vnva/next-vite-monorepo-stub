@@ -3,13 +3,17 @@
   "private": true,
   "scripts": {
     "dev": "dotenv -- turbo dev",
-    "build": "dotenv -- turbo build"
+    "build": "dotenv -- turbo build",
+    "generate:package-simple": "turbo gen package:simple",
+    "generate:package-ts": "turbo gen package:ts",
+    "generate:package-ui": "turbo gen package:ui"
   },
   "workspaces": [
     "packages/*",
     "apps/*"
   ],
   "devDependencies": {
+    "@turbo/gen": "^1.9.9",
     "dotenv-cli": "^7.2.1",
     "turbo": "^1.9.9"
   }
