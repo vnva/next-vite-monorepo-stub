@@ -1,0 +1,13 @@
+.button {
+  background-color: steelblue;
+  color: white;
+  border: none;
+  appearance: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(steelblue, 0.8);
+  }
+}
