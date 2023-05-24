@@ -27,3 +27,9 @@ Generate ui package:
 ```
 npm run generate:package-ui
 ```
+
+## Packages docs:
+
+- [@packages/eslint-config](/packages/eslint-config/README.md)
+- [@packages/eslint-config-ui-package](/packages/eslint-config-ui-package/README.md)
+- [@packages/ui-kit](/packages/ui-kit/README.md)
