@@ -2,6 +2,7 @@
   "name": "next-vite-monorepo-stub",
   "private": true,
   "scripts": {
+    "commit": "cz",
     "dev": "dotenv -- turbo dev",
     "build": "dotenv -- turbo build",
     "build:apps:admin": "dotenv -- turbo build --filter=@apps/admin",
@@ -22,6 +23,8 @@
   ],
   "devDependencies": {
     "@turbo/gen": "1.9.9",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "dotenv-cli": "7.2.1",
     "eslint": "^8.41.0",
     "husky": "8.0.3",
@@ -30,5 +33,10 @@
     "prettier": "^2.8.8",
     "stylelint": "^15.6.2",
     "turbo": "1.9.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
