@@ -20,7 +20,12 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: 'add',
-        path: 'packages/{{ kebabCase name }}package.json',
+        path: 'packages/{{ kebabCase name }}/README.md',
+        templateFile: 'templates/PACKAGE-README.md.hbs',
+      },
+      {
+        type: 'add',
+        path: 'packages/{{ kebabCase name }}/package.json',
         templateFile: 'templates/package-simple/package.json.hbs',
       },
     ],
@@ -41,6 +46,11 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       },
     ],
     actions: [
+      {
+        type: 'add',
+        path: 'packages/{{ kebabCase name }}/README.md',
+        templateFile: 'templates/PACKAGE-README.md.hbs',
+      },
       {
         type: 'addMany',
         destination: 'packages/{{ kebabCase name }}',
@@ -69,6 +79,11 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
       },
     ],
     actions: [
+      {
+        type: 'add',
+        path: 'packages/{{ kebabCase name }}/README.md',
+        templateFile: 'templates/PACKAGE-README.md.hbs',
+      },
       {
         type: 'addMany',
         destination: 'packages/{{ kebabCase name }}',

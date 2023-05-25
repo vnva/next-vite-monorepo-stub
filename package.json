@@ -19,7 +19,8 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "turbo"
   ],
   "devDependencies": {
     "@turbo/gen": "1.9.9",
