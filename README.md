@@ -1,5 +1,7 @@
 # Next, Vite Monorepo Stub
 
+Used 18.6.0 NodeJS Version.
+
 For open project in VSCode open [workspace file](https://code.visualstudio.com/docs/editor/workspaces), for example:
 
 ```
