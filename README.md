@@ -1,5 +1,11 @@
 # Next, Vite Monorepo Stub
 
+For open project in VSCode open [workspace file](https://code.visualstudio.com/docs/editor/workspaces), for example:
+
+```
+code workspace.conde-workspace
+```
+
 For start in dev environment run:
 
 > Don't forget to install the dependencies

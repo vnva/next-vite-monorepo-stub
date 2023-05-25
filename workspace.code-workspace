@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "name": ".",
+      "path": "."
+    },
+    {
+      "name": "Admin app",
+      "path": "apps/admin"
+    },
+    {
+      "name": "Client app",
+      "path": "apps/client"
+    },
+    {
+      "name": "UI Kit",
+      "path": "packages/ui-kit"
+    },
+    {
+      "name": "Packages",
+      "path": "packages"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "[handlebars]": {
+      "editor.formatOnSave": false
+    },
+    "scss.validate": false,
+    "stylelint.validate": ["css", "scss"]
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "stylelint.vscode-stylelint"
+    ]
+  }
+}
