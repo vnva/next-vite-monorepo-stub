@@ -10,6 +10,14 @@ npm run dev
 
 ## Useful scripts
 
+Linting:
+
+Run lint script in all workspaces
+
+```
+npm run lint
+```
+
 Types checking:
 
 ```
