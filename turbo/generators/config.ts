@@ -58,6 +58,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
         templateFiles: [
           'templates/package-ts/package.json.hbs',
           'templates/package-ts/.eslintrc.js.hbs',
+          'templates/package-ts/tsconfig.json.hbs',
           'templates/package-ts/src/index.ts.hbs',
         ],
       },
