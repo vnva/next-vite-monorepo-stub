@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "dotenv -- turbo dev",
     "build": "dotenv -- turbo build",
+    "build:apps:admin": "dotenv -- turbo build --filter=@apps/admin",
+    "build:apps:client": "dotenv -- turbo build --filter=@apps/client",
     "typecheck": "turbo typecheck",
     "generate": "turbo gen",
     "generate:package-simple": "turbo gen package:simple",
