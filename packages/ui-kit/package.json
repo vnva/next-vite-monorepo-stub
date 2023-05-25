@@ -8,15 +8,14 @@
     "generate:component": "turbo gen ui-kit:component"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "18.2.0"
   },
   "devDependencies": {
     "@packages/eslint-config-ui-package": "*",
     "@packages/stylelint-config": "*",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "eslint": "^8.41.0",
-    "stylelint": "^15.6.2",
-    "typescript": "^5.0.4"
+    "@types/react": "18.2.0",
+    "eslint": "8.41.0",
+    "stylelint": "15.6.2",
+    "typescript": "5.0.4"
   }
 }

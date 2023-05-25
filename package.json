@@ -19,9 +19,9 @@
     "apps/*"
   ],
   "devDependencies": {
-    "@turbo/gen": "^1.9.9",
-    "dotenv-cli": "^7.2.1",
-    "postcss-scss": "^4.0.6",
-    "turbo": "^1.9.9"
+    "@turbo/gen": "1.9.9",
+    "dotenv-cli": "7.2.1",
+    "postcss-scss": "4.0.6",
+    "turbo": "1.9.9"
   }
 }
