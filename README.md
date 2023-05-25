@@ -16,6 +16,12 @@ npm run dev
 
 ## Useful scripts
 
+For commit use:
+
+```
+npm run commit
+```
+
 Linting:
 
 Run lint script in all workspaces
