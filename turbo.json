@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["TEST", "VITE_TEST"],
+  "globalEnv": ["TEST", "NEXT_PUBLIC_TEST", "VITE_TEST"],
   "pipeline": {
     "dev": {},
     "preview": {},
