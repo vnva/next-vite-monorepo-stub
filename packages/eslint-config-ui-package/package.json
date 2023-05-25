@@ -3,7 +3,7 @@
   "description": "ESLint config for UI packages",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "eslint": "8.41.0",

@@ -2,8 +2,8 @@
   "name": "turbo-root-config",
   "description": "That's need for linting",
   "scripts": {
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "lint": "eslint .",
+    "typecheck": "tsc"
   },
   "devDependencies": {
     "typescript": "5.0.4",

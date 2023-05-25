@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint && stylelint '**/*.{css,scss}'",
+    "lint": "eslint . && stylelint '**/*.{css,scss}'",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@packages/ui-kit": "*",

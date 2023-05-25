@@ -1,15 +1,15 @@
-{
-  "name": "@packages/{{ kebabCase name }}",
-  "description": "{{description}}",
+{ 
+  "name": "@packages/{{ kebabCase name }}", 
+  "description": "{{description}}", 
   "main": "src/index.ts",
-  "scripts": {
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {},
+  "scripts": { 
+    "lint": "eslint .", 
+    "typecheck": "tsc" 
+  }, 
+  "dependencies": {}, 
   "devDependencies": {
-    "typescript": "5.0.4",
-    "eslint": "8.41.0",
-    "@packages/eslint-config": "*"
-  }
+    "typescript": "5.0.4", 
+    "eslint": "8.41.0", 
+    "@packages/eslint-config": "*" 
+  } 
 }

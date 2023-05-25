@@ -3,7 +3,7 @@
   "description": "Base stylelint config",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@packages/eslint-config": "*",

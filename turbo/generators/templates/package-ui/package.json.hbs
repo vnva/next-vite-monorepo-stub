@@ -1,19 +1,19 @@
-{
-  "name": "@packages/{{ kebabCase name }}",
-  "description": "{{description}}",
+{ 
+  "name": "@packages/{{ kebabCase name }}", 
+  "description": "{{description}}", 
   "main": "src/index.ts",
-  "scripts": {
-    "lint": "eslint && stylelint '**/*.{css,scss}'",
-    "typecheck": "tsc --noEmit"
+  "scripts": { 
+    "lint": "eslint . && stylelint '**/*.{css,scss}'", 
+    "typecheck": "tsc" 
   },
-  "dependencies": {
-    "react": "18.2.0"
-  },
-  "devDependencies": {
-    "@packages/eslint-config-ui-package": "*",
-    "@packages/stylelint-config": "*",
-    "typescript": "5.0.4",
-    "eslint": "8.41.0",
-    "@types/react": "18.2.0",
-  }
+  "dependencies": { 
+    "react": "18.2.0" 
+  }, 
+  "devDependencies": { 
+    "@packages/eslint-config-ui-package": "*", 
+    "@packages/stylelint-config": "*", 
+    "typescript": "5.0.4", 
+    "eslint": "8.41.0", 
+    "@types/react": "18.2.0", 
+  } 
 }

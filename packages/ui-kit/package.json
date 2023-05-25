@@ -3,8 +3,8 @@
   "description": "Base UI Kit",
   "main": "src/index.ts",
   "scripts": {
-    "lint": "eslint && stylelint '**/*.{css,scss}'",
-    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && stylelint '**/*.{css,scss}'",
+    "typecheck": "tsc",
     "generate:component": "turbo gen ui-kit:component"
   },
   "dependencies": {
