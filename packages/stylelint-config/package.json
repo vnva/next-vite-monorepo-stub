@@ -1,0 +1,12 @@
+{
+  "name": "@packages/stylelint-config",
+  "description": "Base stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@packages/eslint-config": "*",
+    "eslint": "^8.41.0"
+  }
+}

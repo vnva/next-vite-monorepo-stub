@@ -20,7 +20,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: 'add',
-        path: 'packages/{{name}}/package.json',
+        path: 'packages/{{ kebabCase name }}package.json',
         templateFile: 'templates/package-simple/package.json.hbs',
       },
     ],
@@ -43,7 +43,7 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: 'addMany',
-        destination: 'packages/{{name}}',
+        destination: 'packages/{{ kebabCase name }}',
         base: 'templates/package-ts',
         templateFiles: [
           'templates/package-ts/package.json.hbs',
@@ -71,18 +71,19 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
     actions: [
       {
         type: 'addMany',
-        destination: 'packages/{{name}}',
+        destination: 'packages/{{ kebabCase name }}',
         base: 'templates/package-ui',
         templateFiles: [
           'templates/package-ui/package.json.hbs',
           'templates/package-ui/.eslintrc.js.hbs',
+          'templates/package-ui/.stylelintrc.js.hbs',
           'templates/package-ui/tsconfig.json.hbs',
           'templates/package-ui/declarations.d.ts.hbs',
         ],
       },
       {
         type: 'add',
-        path: 'packages/{{name}}/src/index.ts',
+        path: 'packages/{{ kebabCase name }}/src/index.ts',
         template: '// export your component here',
       },
     ],

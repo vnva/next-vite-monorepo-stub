@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "preview": "next build && next start",
-    "lint": "next lint",
+    "lint": "eslint && stylelint '**/*.{css,scss}'",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -17,11 +17,13 @@
     "sass": "^1.62.1"
   },
   "devDependencies": {
+    "@packages/eslint-config": "*",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "@packages/stylelint-config": "*",
     "@types/node": "^20.2.3",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.3",
     "typescript": "^5.0.4"
   }
 }

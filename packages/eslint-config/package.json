@@ -2,6 +2,9 @@
   "name": "@packages/eslint-config",
   "description": "Base ESLint config",
   "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
   "dependencies": {
     "eslint": "^8.41.0",
     "@typescript-eslint/eslint-plugin": "^5.57.1",

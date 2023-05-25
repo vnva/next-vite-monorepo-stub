@@ -6,6 +6,7 @@
     "build": "dotenv -- turbo build",
     "build:apps:admin": "dotenv -- turbo build --filter=@apps/admin",
     "build:apps:client": "dotenv -- turbo build --filter=@apps/client",
+    "lint": "turbo lint",
     "typecheck": "turbo typecheck",
     "generate": "turbo gen",
     "generate:package-simple": "turbo gen package:simple",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@turbo/gen": "^1.9.9",
     "dotenv-cli": "^7.2.1",
+    "postcss-scss": "^4.0.6",
     "turbo": "^1.9.9"
   }
 }

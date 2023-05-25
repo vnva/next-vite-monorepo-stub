@@ -1,8 +1,9 @@
 {
-  "name": "@packages/{{name}}",
+  "name": "@packages/{{ kebabCase name }}",
   "description": "{{description}}",
   "main": "src/index.ts",
   "scripts": {
+    "lint": "eslint",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {},
