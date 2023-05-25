@@ -1,5 +1,6 @@
-import { Button } from '@packages/ui-kit';
 import Head from 'next/head';
+
+import { Button } from '@packages/ui-kit';
 
 export default function Home() {
   return (
