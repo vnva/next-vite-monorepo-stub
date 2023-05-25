@@ -7,12 +7,14 @@
     "build:apps:admin": "dotenv -- turbo build --filter=@apps/admin",
     "build:apps:client": "dotenv -- turbo build --filter=@apps/client",
     "lint": "turbo lint",
+    "lint:staged": "lint-staged",
     "typecheck": "turbo typecheck",
     "generate": "turbo gen",
     "generate:package-simple": "turbo gen package:simple",
     "generate:package-ts": "turbo gen package:ts",
     "generate:package-ui": "turbo gen package:ui",
-    "generate:ui-kit-component": "turbo gen ui-kit:component"
+    "generate:ui-kit-component": "turbo gen ui-kit:component",
+    "prepare": "husky install"
   },
   "workspaces": [
     "packages/*",
@@ -21,7 +23,12 @@
   "devDependencies": {
     "@turbo/gen": "1.9.9",
     "dotenv-cli": "7.2.1",
+    "eslint": "^8.41.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.2",
     "postcss-scss": "4.0.6",
+    "prettier": "^2.8.8",
+    "stylelint": "^15.6.2",
     "turbo": "1.9.9"
   }
 }
