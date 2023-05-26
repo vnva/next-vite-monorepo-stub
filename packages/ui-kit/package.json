@@ -8,9 +8,11 @@
     "generate:component": "turbo gen ui-kit:component"
   },
   "dependencies": {
-    "react": "18.2.0"
+    "react": "18.2.0",
+    "@packages/assets": "*"
   },
   "devDependencies": {
+    "@packages/tsconfig": "*",
     "@packages/eslint-config-ui-package": "*",
     "@packages/stylelint-config": "*",
     "@types/react": "18.2.0",

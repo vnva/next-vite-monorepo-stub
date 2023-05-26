@@ -30,7 +30,7 @@
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "dotenv-cli": "7.2.1",
-    "eslint": "^8.41.0",
+    "eslint": "8.41.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
     "postcss-scss": "4.0.6",

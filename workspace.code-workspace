@@ -22,6 +22,7 @@
     }
   ],
   "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder}",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.insertFinalNewline": true,
     "editor.formatOnSave": true,
