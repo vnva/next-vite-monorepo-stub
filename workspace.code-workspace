@@ -5,20 +5,24 @@
       "path": "."
     },
     {
-      "name": "Admin app",
+      "name": "admin-app",
       "path": "apps/admin"
     },
     {
-      "name": "Client app",
+      "name": "client-app",
       "path": "apps/client"
     },
     {
-      "name": "UI Kit",
+      "name": "ui-kit",
       "path": "packages/ui-kit"
     },
     {
-      "name": "Packages",
+      "name": "packages",
       "path": "packages"
+    },
+    {
+      "name": "assets",
+      "path": "packages/assets"
     }
   ],
   "settings": {

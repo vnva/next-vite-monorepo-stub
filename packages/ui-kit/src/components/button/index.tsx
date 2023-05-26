@@ -6,10 +6,12 @@ import { HouseIllustration } from '../../assets';
 
 import styles from './styles.module.scss';
 
-export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
+  staticImageSrc?: string;
+};
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
-  const { children, ...rest } = props;
+  const { children, staticImageSrc, ...rest } = props;
 
   return (
     <>
@@ -20,6 +22,10 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) =>
       <div>
         Import from assets in ui kit package
         <HouseIllustrationFromAssets height={100} />
+      </div>
+      <div>
+        Static image in ui kit usage
+        <img src={staticImageSrc} />
       </div>
     </>
   );

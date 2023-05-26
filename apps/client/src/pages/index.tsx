@@ -1,5 +1,6 @@
 import Head from 'next/head';
 
+import png from '@packages/assets/images/github.png';
 import HouseIllustrationFromAssets from '@packages/assets/images/house.svg';
 import { Button } from '@packages/ui-kit';
 import { HouseIllustration } from '@packages/ui-kit/src/assets';
@@ -17,7 +18,7 @@ export default function Home() {
         <h1>Client app</h1>
         <div>
           UI Kit component
-          <Button>Button from UI Kit package</Button>
+          <Button staticImageSrc={png.src}>Button from UI Kit package</Button>
         </div>
         <div>
           From ui kit:
@@ -26,6 +27,7 @@ export default function Home() {
         <div>
           From assets:
           <HouseIllustrationFromAssets height={300} />
+          <img src={png.src} />
         </div>
       </main>
     </>
