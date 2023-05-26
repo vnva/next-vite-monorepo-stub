@@ -10,13 +10,29 @@ For start in dev environment run:
 npm run dev
 ```
 
-## Useful scripts
-
-For commit use:
+For commits use:
 
 ```
 npm run commit
 ```
+
+## Installing dependencies
+
+```sh
+npm i <package-name> -w <workspace-name>
+
+# or
+
+npm i <package-name> -w <workspace-path>
+
+# by name
+# npm i axios -w @apps/admin
+
+# by path
+# npm i axios -w apps/admin
+```
+
+## Useful scripts
 
 Linting:
 
