@@ -1,3 +1,9 @@
+@import './_fonts';
+
 body {
   background-color: $color-background;
+}
+
+h1 {
+  @extend %h1;
 }

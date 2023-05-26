@@ -1,0 +1,55 @@
+.fontBase {
+  font: {
+    family: var(--montserrat-font);
+    style: normal;
+  }
+}
+
+%h1 {
+  @extend .fontBase;
+  font-weight: 400;
+  font-size: 92px;
+  line-height: 112px;
+}
+
+%h2 {
+  @extend .fontBase;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+%h3 {
+  @extend .fontBase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+%h4 {
+  @extend .fontBase;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+%body-m {
+  @extend .fontBase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+%body-m-semi-bold {
+  @extend .fontBase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+%body-s {
+  @extend .fontBase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}

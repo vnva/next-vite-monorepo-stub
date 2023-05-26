@@ -1,4 +1,6 @@
 .button {
+  @extend %body-m;
+
   background-color: $color-primary;
   color: white;
   border: none;
