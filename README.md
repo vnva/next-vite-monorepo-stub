@@ -81,4 +81,5 @@ npm run generate:ui-kit-component
 - [@packages/eslint-config](/packages/eslint-config/README.md)
 - [@packages/eslint-config-ui-package](/packages/eslint-config-ui-package/README.md)
 - [@packages/stylelint-config](/packages/stylelint-config/README.md)
+- [@packages/assets](/packages/assets/README.md)
 - [@packages/ui-kit](/packages/ui-kit/README.md)
