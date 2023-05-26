@@ -2,14 +2,6 @@
 
 Used 18.6.0 NodeJS Version.
 
-For open project in VSCode open [workspace file](https://code.visualstudio.com/docs/editor/workspaces), for example:
-
-> Tip: Make alias for this command
-
-```
-code workspace.conde-workspace
-```
-
 For start in dev environment run:
 
 > Tip: Don't forget to install the dependencies

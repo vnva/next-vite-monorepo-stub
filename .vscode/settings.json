@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  },
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss"]
+}
