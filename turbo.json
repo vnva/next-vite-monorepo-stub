@@ -4,9 +4,7 @@
   "pipeline": {
     "dev": {},
     "preview": {},
-    "build": {
-      "dependsOn": ["typecheck", "lint"]
-    },
+    "build": {},
     "typecheck": {
       "cache": false
     },
