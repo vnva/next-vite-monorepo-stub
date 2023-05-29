@@ -26,6 +26,11 @@ module.exports = {
             group: 'internal',
             position: 'before',
           },
+          {
+            pattern: '{.,..}/**/*.+(css|scss)',
+            group: 'object',
+            position: 'after',
+          },
         ],
       },
     ],
